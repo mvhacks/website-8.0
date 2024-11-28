@@ -6,6 +6,7 @@ import Prospectus from "./components/Prospectus"
 import Faqs from "./components/Faqs";
 import Title from "./components/Title";
 import Schedule from "./components/Schedule";
+import Team from "./components/Team";
 
 function App() {
   const home = useRef(null);
@@ -62,7 +63,7 @@ function App() {
             <Prospectus></Prospectus>
         </div>
         <div className="team" ref={team}>
-          <h2>TEAM</h2>
+          <Team></Team>
         </div>
       </div>
       <br />
